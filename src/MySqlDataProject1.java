@@ -14,11 +14,11 @@ public class MySqlDataProject1 {
 	void createConnection(){
 		try {
 		  Class.forName("com.myql.jdbc.Driver");
-		  Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/ecole_db", "root", "136264mD!");
+		  Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/ecole_db", "root", "*****!");
 		  System.out.println("Data base connection Success"); 
 			} 
 		catch(Exception e){
-			System.err.println("probléme de connextion: failed to connect");
+			System.err.println("problÃ©me de connextion: failed to connect");
 			System.err.println(e);
 	        }
 	}
